@@ -2,7 +2,7 @@ from google.adk.agents.llm_agent import Agent
 from google.adk.models.lite_llm import LiteLlm
 from tool import roll_die, check_prime
 
-MODEL = "ollama/hf.co/unsloth/Qwen3-8B-GGUF:UD-Q4_K_XL"
+MODEL = "ollama_chat/hf.co/unsloth/Qwen3-8B-GGUF:UD-Q4_K_XL"
 
 root_agent = Agent(
     model=LiteLlm(model=MODEL),
